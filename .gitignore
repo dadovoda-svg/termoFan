@@ -1,0 +1,10 @@
+# Exclude everything by default and retain the project build inputs.
+/*
+!/.gitignore
+!/platformio.ini
+!/src/
+!/scripts/
+
+# Python cache files are generated locally.
+__pycache__/
+*.py[cod]
